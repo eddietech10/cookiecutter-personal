@@ -29,7 +29,7 @@ conda install -c conda-forge cookiecutter
 En el directorio en el que quieras guardar tu proyecto generado:
 
 ```bash
-cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cookiecutter-personal-platzi
+cookiecutter cookiecutter https://github.com/edev10/cookiecutter-personal --checkout cookiecutter-personal-2 --checkout cookiecutter-personal
 ```
 
 
@@ -52,3 +52,5 @@ cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cook
 
 ---
 Proyecto creado con el curso: [Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) de [Platzi](https://platzi.com/). By: [@edev10](https://twitter.com/edev_10).
+
+
