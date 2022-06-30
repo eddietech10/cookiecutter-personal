@@ -43,4 +43,4 @@ activate {{ cookiecutter.project_slug }}
         └── README.md          <- The top-level README for developers using this project.
 
 ---
-Project created for demonstration purposes for the course "[Personalización Avanzada de Entorno para ciencia de Datos]()" by [Platzi](https://platzi.com/) - [@jvelezmagic](https://jvelezmagic.com/).
+Proyecto creado con el curso: [Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) de [Platzi](https://platzi.com/). By: [@edev10](https://twitter.com/edev_10).

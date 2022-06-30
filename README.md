@@ -1,7 +1,7 @@
 # Cookiecuter Personal - Tutorial
 
 <!-- badges: start -->
-[![@jvelzmagic](https://img.shields.io/badge/@jvelezmagic-Sitio_personal-blue?&logoColor=white)](https://jvelezmagic.com/) 
+[![@edev_10](https://img.shields.io/badge/@edev10-Twitter-blue?&logoColor=white)](https://twitter.com/edev_10) 
 [![Platzi](https://img.shields.io/badge/Curso_Platzi-Configuración_Avanzada_...-green&logoColor=white)](https://platzi.com/datos/)
 <!-- badges: end -->
 
@@ -51,4 +51,4 @@ cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cook
         └── README.md          <- The top-level README for developers using this project.
 
 ---
-Proyecto creado con el curso "[Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/)" de [Platzi](https://platzi.com/). By: [@edev10](https://twitter.com/edev_10).
+Proyecto creado con el curso: [Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) de [Platzi](https://platzi.com/). By: [@edev10](https://twitter.com/edev_10).
