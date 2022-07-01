@@ -1,41 +1,33 @@
-# Cookiecuter Personal - Tutorial
+# Manejo de Rutas 
 
-<!-- badges: start -->
-[![@edev_10](https://img.shields.io/badge/@edev10-Twitter-blue?&logoColor=white)](https://twitter.com/edev_10) 
-[![Platzi](https://img.shields.io/badge/Curso_Platzi-Configuración_Avanzada_...-green&logoColor=white)](https://platzi.com/datos/)
-<!-- badges: end -->
+By: Eddie10.
 
-Aprende a crear tu propia plantilla personalizada utilizando cookiecutter.
+Version: 0.1.0
 
-## Requiremientos
+Learn to manage paths.
 
-- [Anaconda](https://www.anaconda.com/download/) >= 4.x
-- [git](https://git-scm.com/) >= 2.x
-- [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0:
-    Esto puede ser instalado con `pip` o `conda` dependiendo cómo tú manejas tus paquetes de Python:
+## Prerequisites
 
-``` bash
-pip install cookiecutter
-```
+- [Anaconda](https://www.anaconda.com/download/) >=4.x
+- Optional [Mamba](https://mamba.readthedocs.io/en/latest/)
 
-o
-
-``` bash
-conda install -c conda-forge cookiecutter
-```
-
-## Crear un nuevo proyecto
-
-En el directorio en el que quieras guardar tu proyecto generado:
+## Create environment
 
 ```bash
-cookiecutter https://github.com/edev10/cookiecutter-personal || --checkout cookiecutter-personal
+conda env create -f environment.yml
+activate manejo_de_rutas
 ```
 
+or 
 
-## Estructura de directorios y archivos resultantes
+```bash
+mamba env create -f environment.yml
+activate manejo_de_rutas
+```
 
-    {{ cookiecutter.project_slug }}
+## Project organization
+
+    manejo_de_rutas
         ├── data
         │   ├── processed      <- The final, canonical data sets for modeling.
         │   └── raw            <- The original, immutable data dump.
@@ -51,6 +43,4 @@ cookiecutter https://github.com/edev10/cookiecutter-personal || --checkout cooki
         └── README.md          <- The top-level README for developers using this project.
 
 ---
-Proyecto creado con el curso: [Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) de [Platzi](https://platzi.com/). By: [@edev10](https://twitter.com/edev_10).
-
-
+Project created for demonstration purposes for the course "[Personalización Avanzada de Entorno para ciencia de Datos]()" by [Platzi](https://platzi.com/) - [@jvelezmagic](https://jvelezmagic.com/).
